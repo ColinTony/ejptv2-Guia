@@ -1,0 +1,112 @@
+# Hacking desde Cero.
+## principal o saberes previos
+ Esta lista , no es necesario que hagas practicas o te metas a fondo , aqui solo te recomiendo investigar y entenderlo.
+ Solo eso, lee, investiga que es , si quieres hacer alguna practica para entenderlo mejor adelante , pero mientras entiendas
+ los conceptos es suficiente para esta parte:
+
+ - Linux:
+    -   Estructura de linux (Basicamente estudiar que es y para que sirve cada carpeta y archivo de linux.)
+        -   Carpetas (bin , boot , dev , etc, home , opt , mnt , proc , root , usr , tmp , usr , var)
+        -   Archivos (/etc/pass , /etc/shadow , logs(archivos logs) )
+        - Sistemas especiales: /proc, /sys y su importancia.
+        - Procesos y señales: ps, top, htop, kill, pkill.
+    - Comandos y funcionalidades de linux:
+        - Comandos basicos de bash (mkdir , ls , cd , chmod , chown , awk , tr , td , grep , apt, cp , mv)
+        - Comandos enumeracion (uname -a , netstat , lsb_release -a)
+        - Lectura de permisos de archivos.
+        - Permisos especiales SUID y SUDOERS (importantisimo entenderlo bien.)
+        - Capabilities
+- HACKING:
+    - ¿Qué es el hacking.?
+        - Hacking como concepto.
+        - Hacking como estilo de vida.
+        - La analogía con el kung fu (disciplina, paciencia y maestría).
+        - Hacking de personas (Ing. Social y La magia.)
+    - Conceptos fundamentales de hacking.
+        - ¿Que es una vulnerabilidad?
+        - ¿Que es un Exploit ?
+        - ¿Que es un PoC?
+        - Terminologia de RCE, LFI, SQLi, XSS, XXE, SSRF, CSRF.
+        - Conocer y saber enumerar puertos comunes.
+            - Puerto 21, 22, 445, 3306, 80 , 443.
+        - Que es el Pivoting.
+        - Que es el Buffer Overflow.
+    - Reconocimiento y Enumeracion.
+        - Analisis de puertos con nmap.
+        - nmap avanzado ( uso de scripts de nmap , escaneos por UDP , Host Discovery)
+        - OSINT (Google Dorking e informacion publica)
+        - Shodan.
+        - Subdominios y Paginas antiguas (crt.sh, amasss, waybackurls , subfinder , httpx-tookit)
+        - Reconocimiento automatico con herramientas
+            - Linpeas
+            - Pspy64
+    - Ganar Acceso:
+        - Vulnerabilidades comunes. (Por versiones desactualizadas , CVEs simples)
+        - Explotacion manual.
+        - Metasploit y meterpreter
+        - Msfvenom.
+        - Github (saber clonar y ejecutar herramientas o exploits.)
+    - Reporte
+        - Que debe llevar el reporte de vulenrabildiades
+        - Diferencias entre bug bounty y Pentesting.
+
+## Practica y camino a volverte Dios de hacking.
+Aqui te recomiendo iniciar con conceptos , al igual que el anterior solo investigar pero ya mas enfocado a la certificacion:
+### Camino a actualizacion de eJPTv2.
+- Conceptos del examen.
+    - ¿Que es una DMZ?
+    - ¿Que es un CMS?.
+    - ¿Que es una Base de datos?.
+    - Tipos de base de datos y porque puertos corren.
+    - Que es un HotFix y como enumerarlo en windows.
+    - Como detectar interfaces de red (Windows y Linux)
+    - Puertos expuestos y puertos internos.
+    - Que es un CVE.
+    - Que es Drupagedon.
+    - Que es Wordpress.
+    - Herramientas para enumeracion de Wordpress (wpscan)
+Ahora si , aqui ya te recomiendo practicas con lo siguiente:
+- Herramientas
+    - nmap
+    - wpscan
+    - msfconsole (Metasploit)
+    - Metasploit 
+    - Hydra.
+- Tecnicas primordiales
+    - Escalar Privilegios:
+        - PE por Sudoers.
+        - PE por SUID.
+        - PE por Kernel Exploit.
+        - PE por capabilities.
+        - Reverse Shell entender el concepto
+        - Reverse Shell para windows.
+        - Reverse Shell para linux.
+        - Hydra Fuerza bruta por smb , ftp y ssh.
+    - Enumeracion de entorno.
+        - Conocer tu red.
+        - Obtencion de version Kernel.
+        - Puertos internos.
+        - Procesos internos.
+- Máquinas para practicar.
+    - Maquinas para iniciar e ir poco a poco:
+        - Oopsie (HackTheBox) (starting point).
+        - Dancing (HackTheBox) (starting point).
+        - Fawn (HackTheBox)(starting point).
+        - Appointment (HackTheBox)(starting point)
+        - Sequel (HackTheBox)(starting point)
+        - Responder (HackTheBox)(starting point)
+    - Maquinas que te recomiendo:
+        - Oopsie (HackTheBox)(starting point)
+        - Legacy (HackTheBox)(de paga maquina retirada)
+        - Blue (TryHackme) - https://tryhackme.com/room/blue
+    - Maquinas muy parecidas al examen:
+        - Armageddon (HackTheBox)(De paga - Maquina Retirada)
+        - Devel (HackThebox)(De paga - Maquina retirada)
+        - RootMe (TryHackMe) - https://tryhackme.com/room/rrootme
+        - DC1 (Vulnhub) - https://www.vulnhub.com/entry/dc-1,292/
+        - Loly (vulnhub) - https://www.vulnhub.com/entry/myexpense-1,405/
+        - NoName (Vulnhub) - https://www.vulnhub.com/entry/haclabs-no_name,429/
+        - WalkingCMS - https://dockerlabs.es/
+- Recursos chidos
+    - (Metasploit) - https://www.youtube.com/watch?v=43wbfCsFefg
+    - (Pivoting) - https://www.youtube.com/watch?v=RotyKByc8Jc
