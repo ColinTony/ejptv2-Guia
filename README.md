@@ -99,10 +99,10 @@ Ahora si , aqui ya te recomiendo practicas con lo siguiente:
         - Oopsie (HackTheBox)(starting point)
         - Legacy (HackTheBox)(de paga maquina retirada)
         - Blue (TryHackme) - https://tryhackme.com/room/blue
+        - RootMe (TryHackMe) - https://tryhackme.com/room/rrootme
     - Maquinas muy parecidas al examen:
         - Armageddon (HackTheBox)(De paga - Maquina Retirada)
         - Devel (HackThebox)(De paga - Maquina retirada)
-        - RootMe (TryHackMe) - https://tryhackme.com/room/rrootme
         - DC1 (Vulnhub) - https://www.vulnhub.com/entry/dc-1,292/
         - Loly (vulnhub) - https://www.vulnhub.com/entry/myexpense-1,405/
         - NoName (Vulnhub) - https://www.vulnhub.com/entry/haclabs-no_name,429/
